@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="page" content="pageOne">
+	<title>
+		Page One
+	</title>
+<script defer src="vendor.072ca26d9acf3a948fba.js"></script><script defer src="pageOne.66f76d83e3393062bda5.js"></script></head>
+
+<body>
+	<a href="./">Back</a>
+	<div id="loading" style="display:flex;">loading</div>
+</body>
+<script>
+	window.addEventListener("DOMContentLoaded", (event) => {
+		document.querySelector('#loading').style.display = 'none';
+		const div = document.createElement('div');
+		div.style.display = 'flex';
+		div.style['align-items'] = 'center';
+		if (document.querySelector("meta[name=page]").content === 'pageOne') {
+			div.innerHTML = `jquery version: <h1>${$().jquery}</h1>`;
+		} else if (document.querySelector("meta[name=page]").content === 'pageTwo') {
+			div.innerHTML = `mathjs version: <h1>${mathjs.version}</h1>`;
+		}
+		document.body.append(div);
+	});
+</script>
+
+</html>
