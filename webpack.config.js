@@ -1,8 +1,12 @@
+// @ts-check
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-
-module.exports = {
-	mode: 'development',
+/** @type {'development'|'production'} */
+const mode = 'development';
+// @ts-check
+/** @typedef  {import ("webpack").Configuration} */
+const config = {
+	mode,
 	entry: {
 		pageOne: './src/pageOne',
 		pageTwo: './src/pageTwo'
@@ -17,6 +21,7 @@ module.exports = {
 				commons: {
 					test: /[\\/]node_modules[\\/]/,
 					name: "vendor",
+					/** @type {'initial'} */
 					chunks: "initial",
 				},
 			},
@@ -44,3 +49,4 @@ module.exports = {
 		})
 	],
 };
+module.exports = config;

@@ -1,0 +1,23 @@
+assets by status 4.7 MiB [cached] 3 assets
+assets by path . 2.11 KiB
+  asset pageOne.html 968 bytes [compared for emit]
+  asset pageTwo.html 968 bytes [compared for emit]
+  asset index.html 226 bytes [compared for emit]
+Entrypoint pageOne 4.69 MiB = vendor.072ca26d9acf3a948fba.js 4.68 MiB pageOne.66f76d83e3393062bda5.js 9.68 KiB
+Entrypoint pageTwo 4.69 MiB = vendor.072ca26d9acf3a948fba.js 4.68 MiB pageTwo.918c0b347563f0e65ae3.js 9.73 KiB
+runtime modules 7.1 KiB 18 modules
+orphan modules 290 bytes [orphan] 2 modules
+modules by path ./node_modules/mathjs/lib/esm/ 1.95 MiB 990 modules
+modules by path ./node_modules/seedrandom/ 26.5 KiB
+  modules by path ./node_modules/seedrandom/lib/*.js 16 KiB 6 modules
+  modules by path ./node_modules/seedrandom/*.js 10.5 KiB 2 modules
+modules by path ./node_modules/@babel/runtime/helpers/esm/*.js 1.74 KiB
+  ./node_modules/@babel/runtime/helpers/esm/extends.js 416 bytes [built] [code generated]
+  ./node_modules/@babel/runtime/helpers/esm/defineProperty.js 344 bytes [built] [code generated]
+  + 3 modules
+modules by path ./src/*.js 238 bytes
+  ./src/pageOne.js 54 bytes [built] [code generated]
+  ./src/pageTwo.js 97 bytes [built] [code generated]
+  ./src/vendor.js 87 bytes [built] [code generated]
++ 9 modules
+webpack 5.88.2 compiled successfully in 3120 ms
