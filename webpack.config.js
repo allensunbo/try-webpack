@@ -4,7 +4,7 @@ const path = require('path');
 /** @type {'development'|'production'} */
 const mode = 'development';
 // @ts-check
-/** @typedef  {import ("webpack").Configuration} */
+/** @type  {import ("webpack").Configuration} */
 const config = {
 	mode,
 	entry: {
