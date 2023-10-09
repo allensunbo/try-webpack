@@ -7,41 +7,8 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "./src/pageTwo.js":
-/*!************************!*\
-  !*** ./src/pageTwo.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vendor */ \"./src/vendor.js\");\n\r\n\r\n// console.log(mathjs.version);\r\nwindow.mathjs = _vendor__WEBPACK_IMPORTED_MODULE_0__.mathjs;\n\n//# sourceURL=webpack://try_webpack/./src/pageTwo.js?");
-
-/***/ }),
-
-/***/ "./src/vendor.js":
-/*!***********************!*\
-  !*** ./src/vendor.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   $: () => (/* reexport default from dynamic */ jquery__WEBPACK_IMPORTED_MODULE_0___default.a),\n/* harmony export */   mathjs: () => (/* reexport module object */ mathjs__WEBPACK_IMPORTED_MODULE_1__)\n/* harmony export */ });\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/index.js\");\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://try_webpack/./src/vendor.js?");
-
-/***/ }),
-
-/***/ "?d4c0":
-/*!************************!*\
-  !*** crypto (ignored) ***!
-  \************************/
-/***/ (() => {
-
-eval("/* (ignored) */\n\n//# sourceURL=webpack://try_webpack/crypto_(ignored)?");
-
-/***/ })
-
-/******/ 	});
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({});
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -175,7 +142,7 @@ eval("/* (ignored) */\n\n//# sourceURL=webpack://try_webpack/crypto_(ignored)?")
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"pageTwo": 0
+/******/ 			"manifest": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -222,11 +189,6 @@ eval("/* (ignored) */\n\n//# sourceURL=webpack://try_webpack/crypto_(ignored)?")
 /******/ 	
 /************************************************************************/
 /******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendor"], () => (__webpack_require__("./src/pageTwo.js")))
-/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;

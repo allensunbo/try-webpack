@@ -15,6 +15,11 @@ const config = {
 		filename: '[name].[contenthash].js',
 		path: __dirname + '/dist',
 	},
+	resolve: {
+		alias: {
+		"@hello": path.resolve(__dirname, "submodules/hello/src"),
+		}
+	},
 	optimization: {
 		splitChunks: {
 			cacheGroups: {
@@ -25,6 +30,9 @@ const config = {
 					chunks: "initial",
 				},
 			},
+		},
+		runtimeChunk: {
+			name: 'manifest'
 		}
 	},
 	plugins: [
