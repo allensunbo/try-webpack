@@ -7,5 +7,5 @@ jobs:
   check-branch-name-valid:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "PR is created."
+      - run: echo "PR is created by ${{ github.actor }}"
       
