@@ -1,0 +1,12 @@
+name: check-branch-name
+run-name: Check branch name
+on: 
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  check-branch-name-valid:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+        echo PR is created
+      
