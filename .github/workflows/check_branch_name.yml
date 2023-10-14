@@ -7,8 +7,7 @@ jobs:
   check-branch-name-valid:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-        echo "$GITHUB_REF"
+      - run: echo "$GITHUB_REF"
         # if [[ ${{ github.ref}} == *"My long"* ]]; then
         #   echo "It's there!"
         # fi
