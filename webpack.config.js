@@ -20,6 +20,7 @@ const config = {
 		"@hello": path.resolve(__dirname, "submodules/hello/src"),
 		}
 	},
+	recordsPath: path.join(__dirname, 'dist', "records.json"),
 	optimization: {
 		splitChunks: {
 			cacheGroups: {
