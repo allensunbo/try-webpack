@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "${{ github.ref }}""
+        echo "$GITHUB_REF"
         # if [[ ${{ github.ref}} == *"My long"* ]]; then
         #   echo "It's there!"
         # fi
